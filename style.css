@@ -1,0 +1,40 @@
+body {
+    background-color: #D4DCE0 !important;
+}
+
+/* Расположение инпутов. */
+.form-group {
+    margin: .5rem;
+}
+
+/* Стиль инпутов формы логина. */
+.form-control {
+    border: 1px solid #D4DCE0;
+}
+
+/* В фокусе после нажатия */
+.form-control:focus {
+    border-color: #00A3D9 !important;
+    box-shadow: none !important;
+}
+
+/* Стиль кнопки отправки */
+.btn-primary {
+    color: #fff;
+    background-color: #00A3D9 !important;
+    border-color: #00a3d9 !important;
+}
+
+/* Стиль блока авторизации */
+.pay-form {
+    margin: 1.5rem;
+    padding: .25rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, .3);
+    border-radius: .25rem;
+}
+
+/* Стиль для чекбокса с упрощенным налогообложением. */
+.isLegalPerson{
+    display: none;
+}
